@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: ad-gateway
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+zuul:
+  prefix: /ad
+  routes:
+    ad-sponsor:
+      path:   /ad-sponsor/**
+      serviceId: eureka-client-ad-sponsor
+      strip-prifix: true
+#      转发的时候保留前缀 如  ip:8000/ad/ad-sponsor/craete/adPlan  转发：/ad-sponsro/create/adPlan
+    ad-search:
+        path: /ad-search/**
+        serviceId: eureka-client-ad-search
+        strip-prifix: true

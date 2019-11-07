@@ -1,0 +1,48 @@
+## druid
+#spring.datasource.url=jdbc:mysql://127.0.0.1:3306/flash?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#spring.datasource.username=root
+#spring.datasource.password=123456
+#spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
+#spring.datasource.filters=stat
+#spring.datasource.maxActive=1000
+#spring.datasource.initialSize=100
+#spring.datasource.maxWait=60000
+#spring.datasource.minIdle=500
+#spring.datasource.timeBetweenEvictionRunsMillis=60000
+#spring.datasource.minEvictableIdleTimeMillis=300000
+#spring.datasource.validationQuery=select 'x'
+#spring.datasource.testWhileIdle=true
+#spring.datasource.testOnBorrow=false
+#spring.datasource.testOnReturn=false
+#spring.datasource.poolPreparedStatements=true
+#spring.datasource.maxOpenPreparedStatements=20
+
+
+spring:
+  application:
+    name: eureka-client-ad-sponsor
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate.format_sql: true
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ad_data?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false
+    username:
+    password:
+    tomcat:
+      max-active: 40
+      min-idle: 20
+      initial-size: 4
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+server:
+  port: 7000
+  servlet:
+    path: /ad-sponsor

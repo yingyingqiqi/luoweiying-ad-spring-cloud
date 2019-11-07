@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ad-service/ad-common/ad-common.iml" filepath="$PROJECT_DIR$/ad-service/ad-common/ad-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad-service/ad-dashboard/ad-dashboard.iml" filepath="$PROJECT_DIR$/ad-service/ad-dashboard/ad-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad-eureka/ad-eureka.iml" filepath="$PROJECT_DIR$/ad-eureka/ad-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad-gateway/ad-gateway.iml" filepath="$PROJECT_DIR$/ad-gateway/ad-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad-service/ad-search/ad-search.iml" filepath="$PROJECT_DIR$/ad-service/ad-search/ad-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad-service/ad-service.iml" filepath="$PROJECT_DIR$/ad-service/ad-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad-service/ad-sponsor/ad-sponsor.iml" filepath="$PROJECT_DIR$/ad-service/ad-sponsor/ad-sponsor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luoweiying-ad-spring-cloud.iml" filepath="$PROJECT_DIR$/luoweiying-ad-spring-cloud.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,88 @@
+//request
+{
+  "featureInfo": {
+    "districtFeature": {
+      "districtFeature": [
+        {
+          "city": "\u5408\u80a5",
+          "province": "\u5b89\u5fbd\u7701"
+        }
+      ]
+    },
+    "itFeature": {
+      "its": [
+        "\u53f0\u7403",
+        "\u6e38\u6cf3"
+      ]
+    },
+    "keywordFeature": {
+      "keywords": [
+        "\u5b9d\u9a6c",
+        "\u5927\u4f17"
+      ]
+    },
+    "relation": "OR"
+  },
+  "mediaId": "\u8bf7\u6c42\u65b9\u6807\u8bc6--\u6211\u662f1111",
+  "reqestInfo": {
+    "adSlots": [
+      {
+        "adSlotCode": "ad-x",
+        "height": 720,
+        "minCpm": 1000,
+        "positionType": 1,
+        "type": [
+          1,
+          2
+        ],
+        "width": 1080
+      }
+    ],
+    "app": {
+      "activityName": "video",
+      "appCode": "imooc",
+      "appName": "imooc",
+      "packageName": "com.imood"
+    },
+    "device": {
+      "deviceCode": "iphone",
+      "displaySize": "1080",
+      "ip": "127.0.0.1",
+      "mac": "00000xxxxx",
+      "model": "x",
+      "screenSize": "720",
+      "serialName": "123456789"
+    },
+    "geo": {
+      "city": "\u5317\u4eac\u5e02",
+      "latitude": 100.28,
+      "longitude": 88.61,
+      "province": "\u5317\u4eac\u5e02"
+    },
+    "requestId": "aaa"
+  }
+}
+/*
+//response
+{
+  "adSlot2Ads": {
+    "ad-x": [
+      {
+        "adId": 10,
+        "adUrl": "https://www.imooc.com",
+        "clickMonitorUrl": [
+          "www.luoweiying.cm",
+          "www.luoweiying.cm"
+        ],
+        "height": 720,
+        "materialType": 1,
+        "showMonitorUrl": [
+          "www.luoweiying.cm",
+          "www.luoweiying.cm"
+        ],
+        "type": 1,
+        "width": 1080
+      }
+    ]
+  }
+}*/

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="a08fbe76-a1e4-49da-a438-15326aa6b7bd" />
+      <option name="name" value="a08fbe76-a1e4-49da-a438-15326aa6b7bd" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="b4fe2fb8-db9d-4448-b0ec-0b1c878163e6" />
+      <option name="name" value="b4fe2fb8-db9d-4448-b0ec-0b1c878163e6" />
+      <option name="url" value="https://repository.apache.org/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="1b1a216c-1e2e-496f-80af-dcb7d988b07b" />
+      <option name="name" value="1b1a216c-1e2e-496f-80af-dcb7d988b07b" />
+      <option name="url" value="http://repo2.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ecc3a837-4ec4-4bd5-bb62-6be45c9a5e43" />
+      <option name="name" value="ecc3a837-4ec4-4bd5-bb62-6be45c9a5e43" />
+      <option name="url" value="http://uk.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="6bcfd99a-c0b0-4893-93c8-a55ca7d2dd21" />
+      <option name="name" value="6bcfd99a-c0b0-4893-93c8-a55ca7d2dd21" />
+      <option name="url" value="http://repository.jboss.org/nexus/content/groups/public" />
+    </remote-repository>
+  </component>
+</project>
